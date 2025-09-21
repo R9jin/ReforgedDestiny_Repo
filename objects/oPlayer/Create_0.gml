@@ -21,7 +21,7 @@ enum PLAYERSTATE {
     LAND_ATTACK_2,
     LAND_ATTACK_3,
     CHARGED_ATTACK,
-    LAND_COMBO
+	DASH
 }
 state = PLAYERSTATE.FREE;
 state_time = 0;
@@ -47,18 +47,15 @@ played_heavy_sound = false;
 
 /// --- Sprites ---
 sPlyrIdleRight   = sPlayerIdleRight;
-sPlyrIdleLeft    = sPlayerIdleLeft;
 sPlyrRunningRight= sPlayerRunningRight;
-sPlyrRunningLeft = sPlayerRunningLeft;
 sPlyrJumpingRight= sPlayerJumpingRight;
-sPlyrJumpingLeft = sPlayerJumpingLeft;
 
 /// --- Other flags ---
 air_attack_gravity = false;
 was_in_air = false;
 hitByAttack = ds_list_create();
 
-dash_speed = 10;
+dash_speed = 20;
 dash_time = 10;
 dash_cooldown_max = 30;
 dash_timer = 0;

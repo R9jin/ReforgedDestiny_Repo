@@ -12,7 +12,6 @@ var in_attack = (
     state == PLAYERSTATE.LAND_ATTACK_1 ||
     state == PLAYERSTATE.LAND_ATTACK_2 ||
     state == PLAYERSTATE.LAND_ATTACK_3 ||
-    state == PLAYERSTATE.LAND_COMBO ||
     state == PLAYERSTATE.CHARGED_ATTACK
 );
 
@@ -28,23 +27,13 @@ if (!in_attack && charge_cooldown <= 0 && keyboard_check_pressed(ord("J"))) {
     enter_state(PLAYERSTATE.CHARGED_ATTACK);
 }
 
-// --- Dash input ---
+// --- Enter dash state ---
 if (!in_attack && !is_charging && dash_cooldown <= 0 && keyboard_check_pressed(vk_shift)) {
-    is_dashing = true;
-    dash_timer = dash_time;
-    dash_dir = hor_direction != 0 ? hor_direction : idleFacing;
-    dash_cooldown = dash_cooldown_max;
+    enter_state(PLAYERSTATE.DASH);
 }
 
-// --- Apply dash ---
-if (is_dashing) {
-    hspeed = dash_dir * dash_speed;
-    dash_timer--;
-    if (dash_timer <= 0) is_dashing = false;
-} else {
-    // --- Physics & Movement ---
-    playerPhysics(); // handles vspeed, hspeed, gravity, collisions, etc.
-}
+// --- Physics & Movement ---
+playerPhysics(); // handles vspeed, hspeed, gravity, collisions, etc.
 
 // --- Decrease dash cooldown ---
 if (dash_cooldown > 0) dash_cooldown--;
@@ -65,6 +54,9 @@ switch(state) {
         break;
     case PLAYERSTATE.CHARGED_ATTACK:
         playerStateChargedAttack();
+        break;
+    case PLAYERSTATE.DASH:
+        playerStateDash(); // <-- now all dash behavior handled here
         break;
 }
 
