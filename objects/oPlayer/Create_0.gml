@@ -3,8 +3,8 @@ horizontal_velocity = 0;
 vertical_velocity = 0;
 move_speed = 10;
 grav = 1.0;
-jump_speed = 20;
-tilemap = layer_tilemap_get_id("Tiles_1");
+jump_speed = 18;
+tilemap = layer_tilemap_get_id("collidable");
 
 /// --- Direction / Facing ---
 hor_direction = 0;
@@ -62,3 +62,7 @@ dash_timer = 0;
 dash_cooldown = 0;
 dash_dir = 0;
 is_dashing = false;
+
+// Max jumps allowed (1 = normal jump, 2 = double jump, etc.)
+jump_max = 2;      
+jump_count = 0;
