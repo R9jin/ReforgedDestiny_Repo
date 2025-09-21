@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"heavyAttack_dark",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.4628571,
+  "name":"heavyAttack_dark",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"heavyAttack_dark.mp3",
+  "type":0,
+  "volume":1.0,
+}
