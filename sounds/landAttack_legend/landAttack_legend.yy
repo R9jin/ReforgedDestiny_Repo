@@ -12,8 +12,8 @@
   "duration":2.1942856,
   "name":"landAttack_legend",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"LandAttack",
+    "path":"folders/Sounds/LandAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

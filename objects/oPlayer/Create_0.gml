@@ -27,7 +27,7 @@ state = PLAYERSTATE.FREE;
 state_time = 0;
 
 /// --- Player Weapons ---
-weapons = ["wood", "fire", "water", "dark", "legendary"]; 
+weapons = ["wood", "iron", "fire", "water", "wind", "dark", "legendary"]; 
 current_weapon_index = 0;
 current_weapon = weapons[current_weapon_index];
 
@@ -49,6 +49,9 @@ played_heavy_sound = false;
 sPlyrIdleRight   = sPlayerIdleRight;
 sPlyrRunningRight= sPlayerRunningRight;
 sPlyrJumpingRight= sPlayerJumpingRight;
+sPlyrRunEndRight = sPlayerRunEndRight;
+sPlyrDashRight = sPlayerDashRight;
+sPlyrAirDashRight = sPlayerAirDashRight;
 
 /// --- Other flags ---
 air_attack_gravity = false;
@@ -63,6 +66,9 @@ dash_cooldown = 0;
 dash_dir = 0;
 is_dashing = false;
 
+
 // Max jumps allowed (1 = normal jump, 2 = double jump, etc.)
 jump_max = 2;      
 jump_count = 0;
+
+was_running = false;

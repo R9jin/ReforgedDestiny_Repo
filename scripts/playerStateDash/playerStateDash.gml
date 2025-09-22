@@ -1,4 +1,5 @@
 function playerStateDash() {
+	
     // --- Enter dash setup ---
     if (state_time <= 1) {
         // Decide dash direction (use input, fallback to facing)
@@ -17,10 +18,15 @@ function playerStateDash() {
 
         // Start cooldown so player can’t spam dash
         dash_cooldown = dash_cooldown_max;
-
+		
         // Play dash animation (flip with xscale)
-        image_xscale = (dash_dir == -1) ? -1 : 1;
-        sprite_index = sPlayerDashRight;
+        image_xscale = (idleFacing == -1) ? -1 : 1;
+		if (!place_meeting(x, y + 1, tilemap)) {
+			sprite_index = sPlyrAirDashRight;		
+		} else {
+			sprite_index = sPlyrDashRight;
+		}
+        
         image_index = 0;
         image_speed = 0.2;
 
@@ -31,10 +37,10 @@ function playerStateDash() {
     // --- During dash ---
     dash_timer--;
 
-    // Cancel vertical velocity if on ground (no hopping while dashing)
-    if (place_meeting(x, y + 1, tilemap)) {
-        vspeed = 0;
-    }
+  //  // Cancel vertical velocity if on ground (no hopping while dashing)
+ //   if (place_meeting(x, y + 1, tilemap)) {
+ //       vspeed = 0;
+ //   }
 
     // --- End dash ---
     if (dash_timer <= 0) {

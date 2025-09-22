@@ -12,8 +12,8 @@
   "duration":1.3104762,
   "name":"landAttack_dark",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"LandAttack",
+    "path":"folders/Sounds/LandAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

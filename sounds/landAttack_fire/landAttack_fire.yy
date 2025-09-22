@@ -12,8 +12,8 @@
   "duration":0.7053061,
   "name":"landAttack_fire",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"LandAttack",
+    "path":"folders/Sounds/LandAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

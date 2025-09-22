@@ -21,7 +21,9 @@ function playerStateChargedAttack() {
                 switch (current_weapon) {
                     case "fire":      sprite_index = sInitialChargeFireRight; break;
                     case "wood":      sprite_index = sInitialChargeWoodRight; break;
+					case "iron":      sprite_index = sInitialChargeIronRight; break;
                     case "water":     sprite_index = sInitialChargeWaterRight; break;
+					case "wind":      sprite_index = sInitialChargeWindRight; break;
                     case "dark":      sprite_index = sInitialChargeDarkRight; break;
                     case "legendary": sprite_index = sInitialChargeLegendRight; break;
                 }
@@ -37,7 +39,9 @@ function playerStateChargedAttack() {
                 switch (current_weapon) {
                     case "fire":      sprite_index = sChargeLoopFireRight; break;
                     case "wood":      sprite_index = sChargeLoopWoodRight; break;
+					case "iron":      sprite_index = sChargeLoopIronRight; break;
                     case "water":     sprite_index = sChargeLoopWaterRight; break;
+					case "wind":      sprite_index = sChargeLoopWindRight; break;
                     case "dark":      sprite_index = sChargeLoopDarkRight; break;
                     case "legendary": sprite_index = sChargeLoopLegendRight; break;
                 }
@@ -69,7 +73,9 @@ function playerStateChargedAttack() {
             switch (current_weapon) {
                 case "wood":      sprite_index = sHeavyAttackWoodRight;  audio_play_sound(heavyAttack_wood,0,false); break;
                 case "fire":      sprite_index = sHeavyAttackFireRight;  audio_play_sound(heavyAttack_fire,0,false); break;
+				case "iron":      sprite_index = sHeavyAttackIronRight;  audio_play_sound(heavyAttack_iron,0,false); break;
                 case "water":     sprite_index = sHeavyAttackWaterRight; audio_play_sound(heavyAttack_water,0,false); break;
+				case "wind":     sprite_index = sHeavyAttackWindRight; audio_play_sound(heavyAttack_wind,0,false); break;
                 case "dark":      sprite_index = sHeavyAttackDarkRight;  audio_play_sound(heavyAttack_dark,0,false); break;
                 case "legendary": sprite_index = sHeavyAttackLegendRight; audio_play_sound(heavyAttack_legend,0,false); break;
             }

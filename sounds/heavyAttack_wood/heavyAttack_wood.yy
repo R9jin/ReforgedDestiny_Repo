@@ -12,8 +12,8 @@
   "duration":1.6979592,
   "name":"heavyAttack_wood",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"HeavyAttack",
+    "path":"folders/Sounds/HeavyAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

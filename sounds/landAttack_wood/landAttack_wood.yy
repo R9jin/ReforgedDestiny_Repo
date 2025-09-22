@@ -12,8 +12,8 @@
   "duration":0.84,
   "name":"landAttack_wood",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"LandAttack",
+    "path":"folders/Sounds/LandAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

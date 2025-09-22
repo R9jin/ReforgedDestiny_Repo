@@ -3,7 +3,7 @@
   "%Name":"sWeaponsHUDFULL",
   "bboxMode":0,
   "bbox_bottom":46,
-  "bbox_left":1,
+  "bbox_left":2,
   "bbox_right":46,
   "bbox_top":0,
   "collisionKind":1,
@@ -13,13 +13,12 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"d1c4e011-47e4-4a3b-8acd-e64a7d708411","name":"d1c4e011-47e4-4a3b-8acd-e64a7d708411","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0d061ac9-de6c-4938-8728-1a624fd55d50","name":"0d061ac9-de6c-4938-8728-1a624fd55d50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f5dd44dc-e644-4526-977d-775f76a9a5df","name":"f5dd44dc-e644-4526-977d-775f76a9a5df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"866123dc-989c-438a-a2da-5ede2c39306f","name":"866123dc-989c-438a-a2da-5ede2c39306f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0d061ac9-de6c-4938-8728-1a624fd55d50","name":"0d061ac9-de6c-4938-8728-1a624fd55d50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e55fc421-1a60-4f86-9cb6-dbcbb51e1a04","name":"e55fc421-1a60-4f86-9cb6-dbcbb51e1a04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"8aaecda0-00ce-418a-b4a0-28c58caaf790","name":"8aaecda0-00ce-418a-b4a0-28c58caaf790","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"3cb9835a-c4a4-408b-8a0d-5158cec3b209","name":"3cb9835a-c4a4-408b-8a0d-5158cec3b209","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f5dd44dc-e644-4526-977d-775f76a9a5df","name":"f5dd44dc-e644-4526-977d-775f76a9a5df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e55fc421-1a60-4f86-9cb6-dbcbb51e1a04","name":"e55fc421-1a60-4f86-9cb6-dbcbb51e1a04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4a836986-90db-46b1-ac25-1125d91469bf","name":"4a836986-90db-46b1-ac25-1125d91469bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -56,7 +55,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":7.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -81,26 +80,23 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1c4e011-47e4-4a3b-8acd-e64a7d708411","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"aa35aa83-639e-477b-a92c-2949099a3b3d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d061ac9-de6c-4938-8728-1a624fd55d50","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8aeb41d3-f5d2-49f7-933f-30aeaca3b2a8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5dd44dc-e644-4526-977d-775f76a9a5df","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03eb362e-c59f-4359-8d51-cbca42b97991","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"866123dc-989c-438a-a2da-5ede2c39306f","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ac26dcde-2490-4e02-bbcb-5cb7be5b8f7d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8aaecda0-00ce-418a-b4a0-28c58caaf790","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a51fa9e3-f72b-4e35-bdbc-da0ef07ab229","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cb9835a-c4a4-408b-8a0d-5158cec3b209","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f48f18f3-2751-4ecf-9eb8-b12d10208ef2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5dd44dc-e644-4526-977d-775f76a9a5df","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"03eb362e-c59f-4359-8d51-cbca42b97991","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d061ac9-de6c-4938-8728-1a624fd55d50","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8aeb41d3-f5d2-49f7-933f-30aeaca3b2a8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e55fc421-1a60-4f86-9cb6-dbcbb51e1a04","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1f0606f8-cef7-48f6-b6a1-74c067feaf8b","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"1f0606f8-cef7-48f6-b6a1-74c067feaf8b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a836986-90db-46b1-ac25-1125d91469bf","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d1ec3e78-a213-4810-9a17-ab89a5cb9c5f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8aaecda0-00ce-418a-b4a0-28c58caaf790","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a51fa9e3-f72b-4e35-bdbc-da0ef07ab229","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cb9835a-c4a4-408b-8a0d-5158cec3b209","path":"sprites/sWeaponsHUDFULL/sWeaponsHUDFULL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f48f18f3-2751-4ecf-9eb8-b12d10208ef2","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

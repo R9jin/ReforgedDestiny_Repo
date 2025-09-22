@@ -5,7 +5,9 @@ function playerStateLandAtk2() {
         switch (current_weapon) {
             case "wood":      sprite_index = sAtkLand2WoodRight; audio_play_sound(landAttack_wood, 0, false); break;
             case "fire":      sprite_index = sAtkLand2FireRight; audio_play_sound(landAttack_fire, 0, false); break;
-            case "water":     sprite_index = sAtkLand2WaterRight; audio_play_sound(landAttack_water, 0, false); break;
+            case "iron":      sprite_index = sAtkLand2IronRight; audio_play_sound(landAttack_iron, 0, false); break;
+			case "water":     sprite_index = sAtkLand2WaterRight; audio_play_sound(landAttack_water, 0, false); break;
+			case "wind":	  sprite_index = sAtkLand2WindRight; audio_play_sound(landAttack_wind, 0, false); break;
             case "dark":      sprite_index = sAtkLand2DarkRight; audio_play_sound(landAttack_dark, 0, false); break;
             case "legendary": sprite_index = sAtkLand2LegendRight; audio_play_sound(landAttack_legend, 0, false); break;
         }

@@ -12,8 +12,8 @@
   "duration":1.4106122,
   "name":"heavyAttack_fire",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"HeavyAttack",
+    "path":"folders/Sounds/HeavyAttack.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
