@@ -32,6 +32,14 @@ if (!in_attack && !is_charging && dash_cooldown <= 0 && keyboard_check_pressed(v
     enter_state(PLAYERSTATE.DASH);
 }
 
+// --- Enter roll state ---
+if (!in_attack && !is_charging && roll_cooldown <= 0 && keyboard_check_pressed(vk_control)) {
+    if (place_meeting(x, y + 1, tilemap)) { // only roll if on ground
+        enter_state(PLAYERSTATE.ROLL);
+    }
+}
+
+
 // --- Physics & Movement ---
 playerPhysics(); // handles vspeed, hspeed, gravity, collisions, etc.
 
@@ -58,6 +66,9 @@ switch(state) {
     case PLAYERSTATE.DASH:
         playerStateDash(); // <-- now all dash behavior handled here
         break;
+	case PLAYERSTATE.ROLL:
+		playerStateRoll();
+		break;
 }
 
 // --- Increment state time
