@@ -78,12 +78,4 @@ state_time++;
 if (charge_cooldown > 0) charge_cooldown--;
 
 // --- Debug
-show_debug_message("state=" + string(state) + 
-    " | state_time=" + string(state_time) + 
-    " | is_charging=" + string(is_charging) + 
-    " | charge_time=" + string(charge_time) + 
-    " | current_weapon=" + string(current_weapon) + 
-    " | sprite=" + sprite_get_name(sprite_index) + 
-    " | charge_cooldown=" + string(charge_cooldown) + 
-    " | dash_timer=" + string(dash_timer) + 
-    " | is_dashing=" + string(is_dashing));
+

@@ -61,7 +61,7 @@ was_in_air         = false;
 hitByAttack        = ds_list_create();
 
 /// --- Dash Settings ---
-dash_speed        = 8;
+dash_speed        = 6;
 dash_time         = 10;
 dash_cooldown_max = 30;
 dash_timer        = 0;
@@ -83,3 +83,12 @@ jump_max   = 2; // 1 = single jump, 2 = double jump
 jump_count = 0;
 
 was_running = false;
+/// --- hitboxes per attack type and frame
+/// format: [width, height, offset_x, offset_y]
+/// hitbox sizes per land attack [width, height, offset_x, offset_y]
+attack_hitboxes = {
+    land1: [136, 65, 20, 0],  // width, height, x-offset, y-offset
+    land2: [131, 64, 22, 0],
+    land3: [118,111, 18, 0],
+    charge: [[111,166, 25, 0]]
+};
